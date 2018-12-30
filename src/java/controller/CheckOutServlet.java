@@ -25,10 +25,7 @@ import model.Item;
 import model.Users;
 import tools.SendMail;
 
-/**
- *
- * @author MinhGiang
- */
+
 public class CheckOutServlet extends HttpServlet {
 
     private BillDAO billDAO = new BillDAO();
