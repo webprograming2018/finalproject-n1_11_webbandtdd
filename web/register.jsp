@@ -1,8 +1,4 @@
-<%-- 
-    Document   : signup
-    Created on : Dec 2, 2018, 8:25:32 PM
-    Author     : MinhGiang
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
