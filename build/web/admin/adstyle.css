@@ -1,0 +1,106 @@
+html,body{
+    min-height:100%;
+    margin:0;
+}
+.header{
+    background-color: darkcyan;
+    padding: 20px;
+    justify-content: center;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;    
+}
+.header li{
+    padding: 0px 20px;
+}
+.header a{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 200px;
+    transition:0.3s;
+}
+.header a:hover{
+    text-decoration: none;
+    font-size: 90%;
+    opacity: 0.5;
+}
+.footer{
+    background-color: darkcyan;
+    padding: 5px;
+}
+.login{
+    border: solid darkcyan;
+    color:darkcyan;
+    margin: 5% auto 5% auto;
+    justify-content: center;
+    width: 350px;;
+    padding: 15px;
+}
+.login img{
+    width: 50px;
+    position: relative;
+    float:right;
+}
+.textinput{
+    margin: 2px 0px;
+    width: 100%;
+}
+.btnlogin{
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    color:white;
+    background-color: darkcyan;
+}
+.img{
+    width: 100px;
+}
+.products{
+    border-collapse: collapse;
+    text-align: center;
+}
+.products th,td{
+    border: solid darkcyan;
+    padding: 7px;
+}
+.btnad{
+    text-decoration: none;
+    color:white;
+    background-color:lightblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btnad:hover{
+    text-decoration: none;
+    font-size: 90%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.formadd{
+    width: 40%;
+    margin: 2% auto 2% auto;
+}
+.formadd input{
+    width: 100%;
+    padding: 5px;
+}
+#btn{
+    text-decoration: none;
+    color:white;
+    background-color:lightblue;
+    padding: 5px 10px;
+    transition: 0.3s;
+    width: 100px;
+    margin: 2% auto 2% auto;
+}
+#btn:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+    opacity: 0.5;
+    cursor: pointer;
+}
