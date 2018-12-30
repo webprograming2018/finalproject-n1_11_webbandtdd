@@ -16,10 +16,7 @@ import java.util.logging.Logger;
 import model.Users;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
-/**
- *
- * @author MinhGiang
- */
+
 public class UsersDAO {
     public boolean emailValidate(String email){
         try {
