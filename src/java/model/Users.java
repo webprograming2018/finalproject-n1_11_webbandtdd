@@ -5,10 +5,6 @@
  */
 package model;
 
-/**
- *
- * @author MinhGiang
- */
 public class Users {
     private long userID;
     private String userEmail;
