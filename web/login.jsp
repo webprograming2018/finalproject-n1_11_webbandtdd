@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : Dec 2, 2018, 8:25:25 PM
-    Author     : MinhGiang
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
